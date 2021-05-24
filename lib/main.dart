@@ -6,7 +6,9 @@ import './appbar/basic_appbar.dart';
 import './appbar/strong_color_appbar.dart';
 // (3) transparent appbar
 import './appbar/transparent_appbar.dart';
+// (4) photo appbar
+import './appbar/photo_appbar.dart';
 
 void main() {
-  runApp(TransparentAppbar());
+  runApp(PhotoAppbar());
 }
