@@ -10,7 +10,11 @@ import './appbar/transparent_appbar.dart';
 import './appbar/photo_appbar.dart';
 // (5) sliver sample appbar
 import './appbar/sliver_appbar.dart';
+// (6) Border Radius appbar
+import './appbar/border_radius_appbar.dart';
+// (7) Combine appbar and body
+import './appbar/combine_appbar_and_body.dart';
 
 void main() {
-  runApp(SliverSampleAppbar());
+  runApp(CombineAppbarAndBody());
 }
