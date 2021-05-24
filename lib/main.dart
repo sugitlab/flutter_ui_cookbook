@@ -14,6 +14,8 @@ import './appbar/sliver_appbar.dart';
 import './appbar/border_radius_appbar.dart';
 // (7) Combine appbar and body
 import './appbar/combine_appbar_and_body.dart';
+// (8) curve body
+import './appbar/appbar_curve_body.dart';
 
 void main() {
   runApp(CombineAppbarAndBody());
