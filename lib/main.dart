@@ -8,7 +8,9 @@ import './appbar/strong_color_appbar.dart';
 import './appbar/transparent_appbar.dart';
 // (4) photo appbar
 import './appbar/photo_appbar.dart';
+// (5) sliver sample appbar
+import './appbar/sliver_appbar.dart';
 
 void main() {
-  runApp(PhotoAppbar());
+  runApp(SliverSampleAppbar());
 }
