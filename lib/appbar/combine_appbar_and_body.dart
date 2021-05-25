@@ -28,16 +28,13 @@ class CombineAppbarAndBody extends StatelessWidget {
                 height: 500,
                 color: Theme.of(context).primaryColor,
               ),
-              Align(
-                alignment: Alignment.topRight,
-                child: Container(
-                  height: 500,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(200),
-                    ),
-                    color: Theme.of(context).scaffoldBackgroundColor,
+              Container(
+                height: 500,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(200),
                   ),
+                  color: Theme.of(context).scaffoldBackgroundColor,
                 ),
               ),
               Center(
