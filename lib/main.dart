@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// --- AppBar ---
 // (1) basic app bar
 import './appbar/basic_appbar.dart';
 // (2) strong color appbar
@@ -17,6 +18,10 @@ import './appbar/combine_appbar_and_body.dart';
 // (8) curve body
 import './appbar/appbar_curve_body.dart';
 
+// --- BottomNavigationBar ---
+// (9) bottom navigation bar
+import './bottomnavigation/basic_bottom_navigationbar.dart';
+
 void main() {
-  runApp(CombineAppbarAndBody());
+  runApp(BasicBottomNavigationBar());
 }
