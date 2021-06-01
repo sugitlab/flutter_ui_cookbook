@@ -23,8 +23,8 @@ class StrongColorAppbar extends StatelessWidget {
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
               colors: [
-                Colors.purple[900],
-                Colors.purple[700],
+                Colors.purple[900]!,
+                Colors.purple[700]!,
                 Colors.purple,
               ],
             ),
